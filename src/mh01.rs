@@ -8,35 +8,35 @@ pub fn known_keys() -> HashMap<String, String> {
     HashMap::from([
         (
             "044b4e59846ecee953662ff2238fcc23".to_string(),
-            "E15 v1.00 - v1.20".to_string(),
+            "E15 / DAP_X1550 v1.00 - v1.20".to_string(),
         ),
         (
             "927fc5786df1a9557524a0289e1e3f3b".to_string(),
-            "E15 > v1.20".to_string(),
+            "E15 / DAP_X1550 > v1.20".to_string(),
         ),
         (
             "4d5ee2c8b5d0fdd9a9a2d351ba897752".to_string(),
-            "E30 v1.00 - v1.10".to_string(),
+            "E30 / DAP_X3020 v1.00 - v1.10".to_string(),
         ),
         (
             "238a29b9432f688e30b701548c753146".to_string(),
-            "E30 > v1.10".to_string(),
+            "E30 / DAP_X3020 > v1.10".to_string(),
         ),
         (
             "a4f7c17c3e0aa4532c2024ce6ac5f17c".to_string(),
-            "R12 v1.00 - v1.10".to_string(),
+            "R12 / RC12 v1.00 - v1.10".to_string(),
         ),
         (
             "6b5a65dbc1ebc492ac6d8efbbb59ae09".to_string(),
-            "R12 > v1.10".to_string(),
+            "R12 / RC12 > v1.10".to_string(),
         ),
         (
             "70070e579f97548a96a7794d4d779376".to_string(),
-            "R15 v1.00 - v1.20".to_string(),
+            "R15 / DIR_X1550 v1.00 - v1.20".to_string(),
         ),
         (
             "7b4df82f7f042b9d0b40971be0ff53c4".to_string(),
-            "R15 > v1.20".to_string(),
+            "R15 / DIR_X1550 > v1.20".to_string(),
         ),
         (
             "6276ccf4c1d8d6f54b481095e78ff97f".to_string(),
@@ -56,11 +56,11 @@ pub fn known_keys() -> HashMap<String, String> {
         ),
         (
             "6b29f1d663a21b35fb45b69a42649f5e".to_string(),
-            "M32 v1.00 - 1.10".to_string(),
+            "M32 / AMIT_M2M / AX6000 / COVR_X3260 / R32 / VHG87B_0G018 v1.00 - 1.10".to_string(),
         ),
         (
             "1bfb1004e29f9eb76dbe26eb0dd87cd1".to_string(),
-            "M32 > v1.10".to_string(),
+            "M32 / AMIT_M2M / AX6000 / COVR_X3260 / R32 / VHG87B_0G018 > v1.10".to_string(),
         ),
         (
             "c5f8a1e22f808abc84f2e4a6fa5f10bb".to_string(),
@@ -69,6 +69,110 @@ pub fn known_keys() -> HashMap<String, String> {
         (
             "6420da70a975455e4ddd6b8fa5b652e7".to_string(),
             "M60 > v1.10".to_string(),
+        ),
+        (
+            "e5af7b6761f9791b6a522738275002db".to_string(),
+            "E12".to_string(),
+        ),
+        (
+            "fa0c50b3d95816b3fffd7da3efd5cb66".to_string(),
+            "E18".to_string(),
+        ),
+        (
+            "f23051f55ed058c103c25ec37c6e1601".to_string(),
+            "E32".to_string(),
+        ),
+        (
+            "df9c62b095a04e1f67bf4ffe21117eae".to_string(),
+            "R03 / RM33".to_string(),
+        ),
+        (
+            "5655840cefb7da085e7c3d9640e64922".to_string(),
+            "R04".to_string(),
+        ),
+        (
+            "0bcca591c37f932c839d1eaa4dafc292".to_string(),
+            "R18".to_string(),
+        ),
+        (
+            "80c4d262297149e54c04a91bc3329175".to_string(),
+            "R36".to_string(),
+        ),
+        (
+            "4e5aad6e440bdd16bdc8b6ad441e47ba".to_string(),
+            "R60".to_string(),
+        ),
+        (
+            "08324188e8c509105186636274cf4bea".to_string(),
+            "M15 / COVR_X1550 / COVR_X1550_QUICKLINE".to_string(),
+        ),
+        (
+            "b0b2e9efd78ec5dba99e02293c36a94f".to_string(),
+            "M36".to_string(),
+        ),
+        (
+            "95d620854d9a51c90ae0a22787f50e17".to_string(),
+            "MX32".to_string(),
+        ),
+        (
+            "443a194860796cd9d9a24d99c4242e64".to_string(),
+            "G403 / DWR924".to_string(),
+        ),
+        (
+            "118e57f905f0690157f8389b745b6ac8".to_string(),
+            "G412".to_string(),
+        ),
+        (
+            "5c67ae65b2329711441a965bc3a73667".to_string(),
+            "G413".to_string(),
+        ),
+        (
+            "e1d72a0952b1d349be0b7a32fbd1341e".to_string(),
+            "G415 / G415SE / DWR_1953".to_string(),
+        ),
+        (
+            "94706d6f4245039c411af6c3a705e607".to_string(),
+            "G416 / G416CP / G416ISP / G416PL / G416TL / DWR_1961".to_string(),
+        ),
+        (
+            "c5ffe41dcdd9518060243921393e7d19".to_string(),
+            "G518".to_string(),
+        ),
+        (
+            "29f9ef6781fa478377d9954187fd078b".to_string(),
+            "G530".to_string(),
+        ),
+        (
+            "6cc5de3f0022442fe809981fc1f40d4d".to_string(),
+            "G560".to_string(),
+        ),
+        (
+            "b40c8b7a06b235471b69591021f82e60".to_string(),
+            "B180".to_string(),
+        ),
+        (
+            "ddcada1120056f68738e39d7336630eb".to_string(),
+            "B180G".to_string(),
+        ),
+        (
+            "6922920d95a6a48a44d8bf237bea3924".to_string(),
+            "B360G".to_string(),
+        ),
+        (
+            "3fb5d73c6ee959edb17ab70f4fb097cf".to_string(),
+            "B600".to_string(),
+        ),
+        (
+            "f21247200ea5d552efa08740522d0ff1".to_string(),
+            "DVG_X6052 / DVG_X6052ET".to_string(),
+        ),
+        (
+            "0b8073ca811bf3de07a4b79d90cdb49e".to_string(),
+            "DIR_X1510".to_string(),
+        ),
+        (
+            "a07e5f355c8f4037a218d791e2d58fa6".to_string(),
+            "DIR-LX3260".to_string(),
         ),
     ])
 }
